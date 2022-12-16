@@ -10,3 +10,10 @@ const processOrders = (customer) => {
 console.log('take order for customer 1');
 processOrders();
 console.log('complete order for customer 1');
+
+
+
+
+/* Here is 3 seconds blocking behaviour just because of Synchronous Js.
+ it will print The cose line by line. One After another line . 
+ Thats Why There is an 3000 seconds block issue within  the while loop. */
