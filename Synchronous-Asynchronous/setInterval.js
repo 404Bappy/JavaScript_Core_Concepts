@@ -1,7 +1,7 @@
 console.log('bappy');
-setInterval( () => {
+setInterval(() => {
     console.log('karim');
-},2000 )
+}, 2000)
 
 console.log('jashim');
 
