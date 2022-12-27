@@ -3,4 +3,7 @@ let myPromise = Promise((resolveFunc , rejectFunc) => {
     if(result == 2){
         resolveFunc("success");
     }
-})
+    else{
+        rejectFunc("Failed");
+    }
+});
