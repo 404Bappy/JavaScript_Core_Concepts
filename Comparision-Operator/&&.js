@@ -1,3 +1,2 @@
-console.log(StudyGood && PlayWell); 
+console.log(StudyGood && PlayWell);
 // && booth condition must be matched
- 
