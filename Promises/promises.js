@@ -7,3 +7,9 @@ let myPromise = Promise((resolveFunc , rejectFunc) => {
         rejectFunc("Failed");
     }
 });
+
+myPromise.then((msg) => {
+    console.log(msg);
+}).catch((err) => {
+    console.log(err);
+});
