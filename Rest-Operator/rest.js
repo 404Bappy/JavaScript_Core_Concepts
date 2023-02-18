@@ -1,3 +1,3 @@
 const filter = (...args) => {
-    return
+    return args.filter();
 }
