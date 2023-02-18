@@ -1,3 +1,3 @@
-const filter = () => {
+const filter = (...args) => {
     return
 }
