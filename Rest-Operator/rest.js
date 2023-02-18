@@ -1,1 +1,3 @@
-const filter = ()
+const filter = () => {
+    return
+}
